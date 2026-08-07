@@ -1241,6 +1241,23 @@
       "address": null,
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "75a641b3-cf99-4ce0-b4d1-a2e3ba6faedc",
+      "id": "JP-H-00008",
+      "name": "VESSEL HOTEL CAMPANA OKINAWA",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": {
+        "lat": 26.3151177,
+        "lng": 127.7540773
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/ZvMiBzcgE6Y2wkVq8?g_st=ic",
+      "address": "9-22 Mihama, Chatan-chō, Nakagami-gun, Okinawa 904-0115, Japan",
+      "note": "",
+      "rating": null
     }
   ]
 }
