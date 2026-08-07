@@ -1275,6 +1275,23 @@
       "address": "Japan, 〒905-0005 Okinawa, Nago, Biimata, 1220-71 トロピカル王国 OKINAWAフルーツらんど 3号館 1階",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "ad479433-1eb7-4729-8820-c35afd4ff239",
+      "id": "JP-F-00030",
+      "name": "Coco's Nago",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.6082295841946,
+        "lng": 127.984438498458
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/f8Xs29zd7xdkuLhG7?g_st=ic",
+      "address": "〒905-0019 沖縄県名護市大北5-24-17",
+      "note": "",
+      "rating": null
     }
   ]
 }
