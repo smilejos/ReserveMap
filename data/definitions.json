@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "countries": [
+    { "id": "TW", "name": "台灣" },
+    { "id": "JP", "name": "日本" }
+  ],
+  "regions": [
+    {
+      "id": "TW-TAIPEI",
+      "countryId": "TW",
+      "name": "台北",
+      "center": { "lat": 25.0375, "lng": 121.5637 },
+      "zoom": 11
+    },
+    {
+      "id": "TW-TAOYUAN",
+      "countryId": "TW",
+      "name": "桃園",
+      "center": { "lat": 24.9937, "lng": 121.301 },
+      "zoom": 10
+    },
+    {
+      "id": "TW-HSINCHU",
+      "countryId": "TW",
+      "name": "新竹",
+      "center": { "lat": 24.8138, "lng": 120.9675 },
+      "zoom": 10
+    },
+    {
+      "id": "TW-YILAN",
+      "countryId": "TW",
+      "name": "宜蘭",
+      "center": { "lat": 24.7021, "lng": 121.7378 },
+      "zoom": 10
+    },
+    {
+      "id": "JP-OKINAWA",
+      "countryId": "JP",
+      "name": "沖繩",
+      "center": { "lat": 26.3344, "lng": 127.8056 },
+      "zoom": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "F",
+      "name": "美食",
+      "color": "#D81B60",
+      "subcategories": [
+        { "id": "RESTAURANT", "name": "餐廳", "icon": "restaurant" },
+        { "id": "FOOD_STALL", "name": "小吃攤", "icon": "soup" },
+        { "id": "DESSERT", "name": "甜點店", "icon": "cake-slice" },
+        { "id": "CAFE", "name": "咖啡廳", "icon": "coffee" }
+      ]
+    },
+    {
+      "id": "L",
+      "name": "地點",
+      "color": "#00897B",
+      "subcategories": [
+        { "id": "ATTRACTION", "name": "景點", "icon": "camera" },
+        { "id": "PARK", "name": "公園", "icon": "tree-deciduous" },
+        { "id": "ENTERTAINMENT", "name": "娛樂", "icon": "ticket" },
+        { "id": "EXHIBITION", "name": "展館", "icon": "museum" }
+      ]
+    },
+    {
+      "id": "S",
+      "name": "購物",
+      "color": "#8E24AA",
+      "subcategories": [
+        { "id": "MALL", "name": "商場", "icon": "building-2" },
+        { "id": "SHOPPING_DISTRICT", "name": "商圈", "icon": "shopping-bag" },
+        { "id": "STORE", "name": "店家", "icon": "store" }
+      ]
+    },
+    {
+      "id": "H",
+      "name": "住宿",
+      "color": "#F9A825",
+      "subcategories": [
+        { "id": "HOTEL", "name": "飯店", "icon": "hotel" },
+        { "id": "INN", "name": "旅館", "icon": "bed-double" },
+        { "id": "HOMESTAY", "name": "民宿", "icon": "house" },
+        { "id": "RESORT", "name": "度假村", "icon": "palm-tree" },
+        { "id": "OTHER", "name": "其他", "icon": "map-pin" }
+      ]
+    }
+  ]
+}

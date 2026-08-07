@@ -1,0 +1,1246 @@
+{
+  "schemaVersion": 1,
+  "places": [
+    {
+      "uid": "7774b383-0edd-4568-9138-bb56567b3633",
+      "id": "JP-F-00001",
+      "name": "百年古家 大家 阿古豬",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.6209963,
+        "lng": 127.9636717
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BE%E5%B9%B4%E5%8F%A4%E5%AE%B6%20%E5%A4%A7%E5%AE%B6%20%E9%98%BF%E5%8F%A4%E8%B1%AC&query_place_id=ChIJ8RC5uUz_5DQRdeSUOqKCVmw",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "875b28fd-107a-47fa-a30a-a9e5678cd309",
+      "id": "JP-F-00002",
+      "name": "焼肉きんぐ",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.1961755,
+        "lng": 127.7186496
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%8D%E3%82%93%E3%81%90&query_place_id=ChIJq6paA0pp5TQRiWCJmkb0ado",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "6930f0e2-99b2-48d9-b8b6-de80f7fa944d",
+      "id": "JP-F-00003",
+      "name": "焼肉きんぐ",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.2193541,
+        "lng": 127.6820814
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%8D%E3%82%93%E3%81%90&query_place_id=ChIJHTT5Ynhp5TQREIegZNTHUCA",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "98e439a5-6913-4043-bf01-bf87a6ef4a93",
+      "id": "JP-F-00004",
+      "name": "焼肉きんぐ",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.22845820000001,
+        "lng": 127.6906379
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%8D%E3%82%93%E3%81%90&query_place_id=ChIJWefaQNdr5TQRnvil1YjRlCg",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "a9e105a6-e90f-4a21-86c2-b7d766001331",
+      "id": "JP-F-00005",
+      "name": "焼肉きんぐ",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3211344,
+        "lng": 127.7591385
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%8D%E3%82%93%E3%81%90&query_place_id=ChIJKTiVX6sT5TQRTH6iRAfchcA",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "2e5e5ccd-dc80-457b-9fb1-bd33241fcb30",
+      "id": "JP-F-00006",
+      "name": "焼肉きんぐ",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3482742,
+        "lng": 127.8241365
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%8D%E3%82%93%E3%81%90&query_place_id=ChIJLwiwVHMP5TQRxz6__SA2QNo",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "cfad9e28-189f-4de4-96d8-ff60c73eb8dd",
+      "id": "JP-F-00007",
+      "name": "暖暮拉麵 中城店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.2530764,
+        "lng": 127.7735419
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5%20%E4%B8%AD%E5%9F%8E%E5%BA%97&query_place_id=ChIJib8fLHRt5TQR97WWwX4eCVo",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "cb29c879-fe6e-402a-acd9-16fd6b4cd885",
+      "id": "JP-F-00008",
+      "name": "暖暮拉麵 北谷砂邊店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3305812,
+        "lng": 127.7450324
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5%20%E5%8C%97%E8%B0%B7%E7%A0%82%E9%82%8A%E5%BA%97&query_place_id=ChIJ36QXx3MT5TQRBfrZQYwAZio",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "dd1ee448-0737-4758-8c76-f5638c0902b9",
+      "id": "JP-F-00009",
+      "name": "暖暮拉麵 名護店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.5823173,
+        "lng": 127.9846708
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5%20%E5%90%8D%E8%AD%B7%E5%BA%97&query_place_id=ChIJtzvCM4RV5DQR6JyIKVwOixQ",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "c8c0d7f4-d23e-4b5a-bda3-cc8380f37862",
+      "id": "JP-F-00010",
+      "name": "暖暮拉麵 沖繩美原店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3483952,
+        "lng": 127.8183983
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5%20%E6%B2%96%E7%B9%A9%E7%BE%8E%E5%8E%9F%E5%BA%97&query_place_id=ChIJ_TtVMwYO5TQRYWVqQw-dPwU",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "212d7bc8-4294-4be0-9f0e-3a1db46d3fd2",
+      "id": "JP-F-00011",
+      "name": "暖暮拉麵 系滿店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.1510002,
+        "lng": 127.6726852
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5%20%E7%B3%BB%E6%BB%BF%E5%BA%97&query_place_id=ChIJmXHyWnho5TQRuzzyzO81-0g",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "9da8a120-275d-464a-b225-84f4c57ebc19",
+      "id": "JP-F-00012",
+      "name": "暖暮拉麵 那覇開南店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.2118899,
+        "lng": 127.6882144
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5%20%E9%82%A3%E8%A6%87%E9%96%8B%E5%8D%97%E5%BA%97&query_place_id=ChIJrVKlBABp5TQRp1sBYmqsU_c",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "d6532961-0617-4b56-8b81-d0795918452d",
+      "id": "JP-F-00013",
+      "name": "暖暮拉麵 那霸牧志店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.21786689999999,
+        "lng": 127.6873312
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9A%96%E6%9A%AE%E6%8B%89%E9%BA%B5%20%E9%82%A3%E9%9C%B8%E7%89%A7%E5%BF%97%E5%BA%97&query_place_id=ChIJq6q-z3tp5TQR7_beBOTvC4Y",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "ace81c91-0c69-4bda-abde-79ed87195795",
+      "id": "JP-F-00014",
+      "name": "燒肉 琉球的牛 北谷店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3204651,
+        "lng": 127.7536529
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%20%E7%90%89%E7%90%83%E7%9A%84%E7%89%9B%20%E5%8C%97%E8%B0%B7%E5%BA%97&query_place_id=ChIJX97xsAgT5TQRL2PnTGB9r3g",
+      "address": null,
+      "note": "美國村",
+      "rating": null
+    },
+    {
+      "uid": "b84245a3-e0ce-497d-af75-03e8be37f040",
+      "id": "JP-F-00015",
+      "name": "燒肉 琉球的牛 恩納店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.4519972,
+        "lng": 127.8056266
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%20%E7%90%89%E7%90%83%E7%9A%84%E7%89%9B%20%E6%81%A9%E7%B4%8D%E5%BA%97&query_place_id=ChIJPwH7Wsoa5TQRHjRbpuM8Wsk",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "12e9dc47-28b9-4768-8140-7237aa6b9aa7",
+      "id": "JP-F-00016",
+      "name": "燒肉 琉球的牛 國際通店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.2162955,
+        "lng": 127.6891753
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%20%E7%90%89%E7%90%83%E7%9A%84%E7%89%9B%20%E5%9C%8B%E9%9A%9B%E9%80%9A%E5%BA%97&query_place_id=ChIJSY1QX3pp5TQRxYwCZE5tKu8",
+      "address": null,
+      "note": "那霸國際通（3F）",
+      "rating": null
+    },
+    {
+      "uid": "f76b85a4-9a65-450c-9ecf-3061934aa3a4",
+      "id": "JP-F-00017",
+      "name": "燒肉五苑 北谷店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3297997,
+        "lng": 127.7770442
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%E4%BA%94%E8%8B%91%20%E5%8C%97%E8%B0%B7%E5%BA%97&query_place_id=ChIJB29wYEUS5TQRyr09OxkHgww",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "4e1037d7-28e9-4f64-b996-cd3e152dc2a0",
+      "id": "JP-F-00018",
+      "name": "燒肉五苑 古島站前店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.2291179,
+        "lng": 127.702068
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%E4%BA%94%E8%8B%91%20%E5%8F%A4%E5%B3%B6%E7%AB%99%E5%89%8D%E5%BA%97&query_place_id=ChIJkRiwZd1r5TQRHAwvTLhXq58",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "e5383562-fd93-47b9-bc44-c61b53db0dac",
+      "id": "JP-F-00019",
+      "name": "燒肉五苑 名護店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.6083329,
+        "lng": 127.9702533
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%E4%BA%94%E8%8B%91%20%E5%90%8D%E8%AD%B7%E5%BA%97&query_place_id=ChIJQzKA9Fr_5DQRSaxmGCMvyuY",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "a22b3be7-2727-4573-9074-12ef2c1595b2",
+      "id": "JP-F-00020",
+      "name": "燒肉五苑 宇流麻店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3778592,
+        "lng": 127.8550693
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%E4%BA%94%E8%8B%91%20%E5%AE%87%E6%B5%81%E9%BA%BB%E5%BA%97&query_place_id=ChIJ4_SOEgEP5TQRqo92oUGoc8E",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "e4fecfa9-d6ce-4612-b4e6-967c167f9ecb",
+      "id": "JP-F-00021",
+      "name": "燒肉五苑 糸滿店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.140265,
+        "lng": 127.671271
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%E4%BA%94%E8%8B%91%20%E7%B3%B8%E6%BB%BF%E5%BA%97&query_place_id=ChIJV9MgBdBn5TQR8EG4icga1rI",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "3aaf5019-da01-4c08-ab98-568aa615a9fb",
+      "id": "JP-F-00022",
+      "name": "燒肉五苑 讀谷店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "RESTAURANT",
+      "coordinates": {
+        "lat": 26.3741454,
+        "lng": 127.7557711
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%92%E8%82%89%E4%BA%94%E8%8B%91%20%E8%AE%80%E8%B0%B7%E5%BA%97&query_place_id=ChIJzcddy3oR5TQR4xW5h0TiWbA",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "c5bf99e6-bf38-4390-a3c4-334eb09468a0",
+      "id": "JP-F-00023",
+      "name": "古宇利蝦蝦飯",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 26.6969393,
+        "lng": 128.0197864
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%AE%87%E5%88%A9%E8%9D%A6%E8%9D%A6%E9%A3%AF&query_place_id=ChIJcep34MxZ5DQR5VjNV0a8HWg",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "9e09f1c4-e68d-4829-bd0e-a66fb88a3e2c",
+      "id": "JP-F-00024",
+      "name": "珀塔瑪 北谷 美國村店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 26.3156636,
+        "lng": 127.753682
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8F%80%E5%A1%94%E7%91%AA%20%E5%8C%97%E8%B0%B7%20%E7%BE%8E%E5%9C%8B%E6%9D%91%E5%BA%97&query_place_id=ChIJMyrT2Q8T5TQRJgpRbfVw6G8",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "6abcde66-549d-4c0b-abb2-42e032cb765d",
+      "id": "JP-F-00025",
+      "name": "珀塔瑪 牧志市場店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 26.2151837,
+        "lng": 127.6879713
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8F%80%E5%A1%94%E7%91%AA%20%E7%89%A7%E5%BF%97%E5%B8%82%E5%A0%B4%E5%BA%97&query_place_id=ChIJRX9edXpp5TQRRGYawVc2Jmk",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "b8dd9a3e-e0cd-411d-8a48-0e968d5980eb",
+      "id": "JP-F-00026",
+      "name": "珀塔瑪 國際機場店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 26.2078028,
+        "lng": 127.6504602
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8F%80%E5%A1%94%E7%91%AA%20%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E5%BA%97&query_place_id=ChIJI5H4e0Np5TQRrc_HuK8sP30",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "c766dda4-2900-488f-a1eb-2cb4c42c32b5",
+      "id": "JP-F-00027",
+      "name": "幸福鬆餅",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "DESSERT",
+      "coordinates": {
+        "lat": 26.1765151,
+        "lng": 127.640567
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B8%E7%A6%8F%E9%AC%86%E9%A4%85&query_place_id=ChIJu33UTx5o5TQRr_m1K0nL9LQ",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "dbabd577-e147-446c-b936-857099f67851",
+      "id": "JP-F-00028",
+      "name": "琉球銘菓 三矢本舗",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "F",
+      "subcategoryId": "DESSERT",
+      "coordinates": {
+        "lat": 26.4983216,
+        "lng": 127.8532711
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%90%89%E7%90%83%E9%8A%98%E8%8F%93%20%E4%B8%89%E7%9F%A2%E6%9C%AC%E8%88%97&query_place_id=ChIJW-eAcWwD5TQR8HSnr9Yq3AE",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "5edaced2-2d42-436f-8843-3beb288ce851",
+      "id": "JP-L-00001",
+      "name": "中城公園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 26.2882736,
+        "lng": 127.792661
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9F%8E%E5%85%AC%E5%9C%92&query_place_id=ChIJ_-zvkrkS5TQR0u6iOBotx-k",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "5cae166c-8509-45ac-b3e2-dce25eb30d89",
+      "id": "JP-L-00002",
+      "name": "今歸仁城",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.6912793,
+        "lng": 127.9290226
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%8A%E6%AD%B8%E4%BB%81%E5%9F%8E&query_place_id=ChIJk_KWO7b55DQRF6wOVeWpIDE",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "cf651d8c-21c2-4ab0-8911-8bd00a217156",
+      "id": "JP-L-00003",
+      "name": "古宇利大橋",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.6865208,
+        "lng": 128.0172722
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%AE%87%E5%88%A9%E5%A4%A7%E6%A9%8B&query_place_id=ChIJyy0FRAhZ5DQRIfztLp8vdWc",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "72361abb-6196-4ad4-a47f-27eea590b6ef",
+      "id": "JP-L-00004",
+      "name": "古宇利島",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.6954521,
+        "lng": 128.02317
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%AE%87%E5%88%A9%E5%B3%B6&query_place_id=ChIJzdBaAc1Z5DQREdhFawH2J8M",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "c5b6e83a-044e-45c3-b7b0-e807500f9413",
+      "id": "JP-L-00005",
+      "name": "古宇利海洋塔",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.7003526,
+        "lng": 128.0241928
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%AE%87%E5%88%A9%E6%B5%B7%E6%B4%8B%E5%A1%94&query_place_id=ChIJEx3cOjJY5DQRJM-BcuwWU-g",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "0433eca9-39b5-4c36-9d92-28032f022bd6",
+      "id": "JP-L-00006",
+      "name": "玉泉洞",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.1403423,
+        "lng": 127.7494344
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E6%B3%89%E6%B4%9E&query_place_id=ChIJa3ifUYVp5TQR3QZD1tyLml4",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "e48c8557-2907-4698-a298-fe4b2871c465",
+      "id": "JP-L-00007",
+      "name": "名護城公園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 26.589226,
+        "lng": 127.9942991
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E8%AD%B7%E5%9F%8E%E5%85%AC%E5%9C%92&query_place_id=ChIJ6zZRKpVV5DQR7SsL7-dW7Dk",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "5ff2fd1c-adbe-45ed-ab6b-44150dcc7701",
+      "id": "JP-L-00008",
+      "name": "安良波公園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 26.30416779999999,
+        "lng": 127.7590412
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E8%89%AF%E6%B3%A2%E5%85%AC%E5%9C%92&query_place_id=ChIJHX52eCIT5TQRsh2qfP7jcxI",
+      "address": null,
+      "note": "海盜船特色公園，海灘公園",
+      "rating": null
+    },
+    {
+      "uid": "74e40cdb-6f12-4578-9933-2c8ed877f938",
+      "id": "JP-L-00009",
+      "name": "西崎親水公園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 26.14398169999999,
+        "lng": 127.6627938
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%B4%8E%E8%A6%AA%E6%B0%B4%E5%85%AC%E5%9C%92&query_place_id=ChIJ41L_bOhn5TQRSM23Av_fzpE",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "95e3a74a-ceb9-4884-8839-597a45206f09",
+      "id": "JP-L-00010",
+      "name": "波上宮",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.2207369,
+        "lng": 127.6711012
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%A2%E4%B8%8A%E5%AE%AE&query_place_id=ChIJdT8KUYVp5TQRrCRV4eFRanc",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "e322499b-fa2f-4162-a8b0-b75778061606",
+      "id": "JP-L-00011",
+      "name": "青之洞窟",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.4425977,
+        "lng": 127.7734662
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E4%B9%8B%E6%B4%9E%E7%AA%9F&query_place_id=ChIJFSBnObgb5TQRQA1ByAocZog",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "73495b36-6d62-4de1-b896-08a7ff1d4ed3",
+      "id": "JP-L-00012",
+      "name": "美國村",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.3164924,
+        "lng": 127.757027
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%9C%8B%E6%9D%91&query_place_id=ChIJzZoVCAUT5TQRzIueHYt83hs",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "7fb13749-c162-4a9b-9300-f4127885b308",
+      "id": "JP-L-00013",
+      "name": "首里城",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.2170449,
+        "lng": 127.7194833
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%96%E9%87%8C%E5%9F%8E&query_place_id=ChIJZ9v0bP5r5TQRi0-esrqficA",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "610f99b6-e66e-4ae4-b0cf-657bb015a44e",
+      "id": "JP-L-00014",
+      "name": "座喜味城",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.4083982,
+        "lng": 127.7417305
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%A7%E5%96%9C%E5%91%B3%E5%9F%8E&query_place_id=ChIJX6aakiAR5TQRCHgKEfmK5aY",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "c1bc1fa7-70ae-4afa-9465-e621bfbe85e0",
+      "id": "JP-L-00015",
+      "name": "桃原公園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 26.3222877,
+        "lng": 127.7771993
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%8E%9F%E5%85%AC%E5%9C%92&query_place_id=ChIJDZO6wlkS5TQR3Z6ikEVyavc",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "c021c62b-fd19-4f18-9271-11fdce49ca1e",
+      "id": "JP-L-00016",
+      "name": "浦添大公園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 26.250104,
+        "lng": 127.7286941
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%A6%E6%B7%BB%E5%A4%A7%E5%85%AC%E5%9C%92&query_place_id=ChIJzwFiZYBs5TQRfOoeh9o5BOY",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "30ba2441-8c9b-4d19-969b-4c202523c8a1",
+      "id": "JP-L-00017",
+      "name": "琉球村",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.429469,
+        "lng": 127.775259
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%90%89%E7%90%83%E6%9D%91&query_place_id=ChIJMdJgznoQ5TQR7jfRwP4C0o0",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "3301e644-2ea9-41f4-b101-65f0793df139",
+      "id": "JP-L-00018",
+      "name": "殘波岬燈塔",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.4410671,
+        "lng": 127.7137202
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AE%98%E6%B3%A2%E5%B2%AC%E7%87%88%E5%A1%94&query_place_id=ChIJ71RebUgX5TQRInS09WnHs8Q",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "5e008e1d-6813-4765-86a9-bbf11d52c1bb",
+      "id": "JP-L-00019",
+      "name": "奧武山公園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 26.2040097,
+        "lng": 127.6746237
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A7%E6%AD%A6%E5%B1%B1%E5%85%AC%E5%9C%92&query_place_id=ChIJq6rqhqNp5TQRL0Kvs0alP5o",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "80cffd29-46f4-4127-8a45-e9e1fb5cb4fb",
+      "id": "JP-L-00020",
+      "name": "奧武島",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.1293214,
+        "lng": 127.7724548
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A7%E6%AD%A6%E5%B3%B6&query_place_id=ChIJfz4dP5tv5TQRR7i-2XFu5bw",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "6923561b-711f-4d69-be30-725aa1a7f090",
+      "id": "JP-L-00021",
+      "name": "萬座毛",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.5049491,
+        "lng": 127.8501455
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%BA%A7%E6%AF%9B&query_place_id=ChIJ-adBh3gD5TQRGFnnzG897N8",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "5aa0d564-e30c-459f-902f-c292e77bb23c",
+      "id": "JP-L-00022",
+      "name": "歌町站",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.223487,
+        "lng": 127.6983437
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%8C%E7%94%BA%E7%AB%99&query_place_id=ChIJuZr-Pt9r5TQRRUn6EdNMu6w",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "14f714eb-1fc7-491f-af86-d01696ffa1cd",
+      "id": "JP-L-00023",
+      "name": "瀨底島",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.6451498,
+        "lng": 127.8644948
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%80%A8%E5%BA%95%E5%B3%B6&query_place_id=ChIJo2A7NW785DQRAmz_m4xoHjo",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "67ea4a10-a1d3-4653-b8db-d13ee57be43d",
+      "id": "JP-L-00024",
+      "name": "瀨長島海風露台",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 26.1766603,
+        "lng": 127.6404367
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%80%A8%E9%95%B7%E5%B3%B6%E6%B5%B7%E9%A2%A8%E9%9C%B2%E5%8F%B0&query_place_id=ChIJTXE7iR5o5TQRuIMt_jUINqU",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "91fae896-28d6-46e7-b606-89e051133db3",
+      "id": "JP-L-00025",
+      "name": "水底漫步",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.446844,
+        "lng": 127.8042994
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E5%BA%95%E6%BC%AB%E6%AD%A5&query_place_id=ChIJh-rhF7Qa5TQRfxR6-Eh6qms",
+      "address": null,
+      "note": "六歲以上",
+      "rating": null
+    },
+    {
+      "uid": "61a318ec-0eb5-42d9-bdd1-87b5fa2a03d7",
+      "id": "JP-L-00026",
+      "name": "名護自然動植物園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.6106621,
+        "lng": 127.9915196
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E8%AD%B7%E8%87%AA%E7%84%B6%E5%8B%95%E6%A4%8D%E7%89%A9%E5%9C%92&query_place_id=ChIJo8BkleNV5DQRa3WYOHIL35g",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "e11df641-350d-4478-a204-0feba8558692",
+      "id": "JP-L-00027",
+      "name": "名護鳳梨園",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.6164971,
+        "lng": 127.9695744
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E8%AD%B7%E9%B3%B3%E6%A2%A8%E5%9C%92&query_place_id=ChIJpRkTRFL_5DQRaoYquVrISOQ",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "2c7bb0f0-16d5-472f-8f91-74dc6fee54eb",
+      "id": "JP-L-00028",
+      "name": "沖繩兒童王國(動物園)",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.3273737,
+        "lng": 127.8035013
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%96%E7%B9%A9%E5%85%92%E7%AB%A5%E7%8E%8B%E5%9C%8B(%E5%8B%95%E7%89%A9%E5%9C%92)&query_place_id=ChIJDaYAgHMS5TQRC-7ZO_2U5Is",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "cc935c2e-5675-4429-b42f-b0a3f836a56d",
+      "id": "JP-L-00029",
+      "name": "潛水滑板車",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.6727245,
+        "lng": 128.0205001
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BD%9B%E6%B0%B4%E6%BB%91%E6%9D%BF%E8%BB%8A&query_place_id=ChIJPeTsYJ1X5DQRfJmtrEnDeAc",
+      "address": null,
+      "note": "四歲以上",
+      "rating": null
+    },
+    {
+      "uid": "d376ae19-d6ec-45d5-a704-e30abc1e8e3b",
+      "id": "JP-L-00030",
+      "name": "Chura Venture Net Park",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.15750349999999,
+        "lng": 127.6476847
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chura%20Venture%20Net%20Park&query_place_id=ChIJi7946ndp5TQRSc7xCWnz2jY",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "013deb00-778f-4451-aeef-96a9afc5fab1",
+      "id": "JP-L-00031",
+      "name": "Manza Ocean Park",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.5061082,
+        "lng": 127.8587064
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Manza%20Ocean%20Park&query_place_id=ChIJRRbXz6UD5TQRdMLCi49xGME",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "f90d8f02-bda8-43ae-8088-c2da1b224406",
+      "id": "JP-L-00032",
+      "name": "Marine Club Berry Kise",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "ENTERTAINMENT",
+      "coordinates": {
+        "lat": 26.5363191,
+        "lng": 127.9453417
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Marine%20Club%20Berry%20Kise&query_place_id=ChIJTc0lBZAD5TQRoE63iyQQvz0",
+      "address": null,
+      "note": "分三歲跟六歲兩區的游水區",
+      "rating": null
+    },
+    {
+      "uid": "00396b58-5976-4ff4-ab67-32332099881e",
+      "id": "JP-L-00033",
+      "name": "沖繩美麗海水族館",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "L",
+      "subcategoryId": "EXHIBITION",
+      "coordinates": {
+        "lat": 26.694338,
+        "lng": 127.8780131
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%96%E7%B9%A9%E7%BE%8E%E9%BA%97%E6%B5%B7%E6%B0%B4%E6%97%8F%E9%A4%A8&query_place_id=ChIJPZ5hUjH65DQR_p_dD3CmCOo",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "ddf22a69-fd91-4c29-9039-39999607b36a",
+      "id": "JP-S-00001",
+      "name": "永旺夢樂城 沖繩 來客夢",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "S",
+      "subcategoryId": "MALL",
+      "coordinates": {
+        "lat": 26.3137504,
+        "lng": 127.7966025
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E6%97%BA%E5%A4%A2%E6%A8%82%E5%9F%8E%20%E6%B2%96%E7%B9%A9%20%E4%BE%86%E5%AE%A2%E5%A4%A2&query_place_id=ChIJJ_TSFGIS5TQRa_HkdjGALss",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "05c1090d-800a-48f7-8485-f9eda81b0257",
+      "id": "JP-S-00002",
+      "name": "PARCO CITY",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "S",
+      "subcategoryId": "MALL",
+      "coordinates": {
+        "lat": 26.2617542,
+        "lng": 127.6981799
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PARCO%20CITY&query_place_id=ChIJxZQf9gpr5TQRwLWyT5Osigc",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "519a5792-09ac-41bd-83d0-f17632c66d4b",
+      "id": "JP-S-00003",
+      "name": "國際通商店街",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "S",
+      "subcategoryId": "SHOPPING_DISTRICT",
+      "coordinates": {
+        "lat": 26.2151475,
+        "lng": 127.6847456
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E9%9A%9B%E9%80%9A%E5%95%86%E5%BA%97%E8%A1%97&query_place_id=ChIJ-w8fcHdp5TQR_PlKZmQhehM",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "1c3d07ee-12d8-45e8-ab93-291abd3b27a1",
+      "id": "JP-S-00004",
+      "name": "第一牧志公設市場",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "S",
+      "subcategoryId": "SHOPPING_DISTRICT",
+      "coordinates": {
+        "lat": 26.2145927,
+        "lng": 127.6883013
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AC%AC%E4%B8%80%E7%89%A7%E5%BF%97%E5%85%AC%E8%A8%AD%E5%B8%82%E5%A0%B4&query_place_id=ChIJy1Zdsr9p5TQR2ET-2o69ZKg",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "370e880a-e471-4c86-98cd-ef2a7d5f8674",
+      "id": "JP-S-00005",
+      "name": "漫畫倉庫 那霸店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "S",
+      "subcategoryId": "STORE",
+      "coordinates": {
+        "lat": 26.1920809,
+        "lng": 127.6598652
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BC%AB%E7%95%AB%E5%80%89%E5%BA%AB%20%E9%82%A3%E9%9C%B8%E5%BA%97&query_place_id=ChIJD_hoYDVo5TQRo2-NLy_AqCU",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "fb9c0b8f-e6e2-4385-95c9-756cc6edc92f",
+      "id": "JP-H-00001",
+      "name": "宇流麻藏身處酒店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": {
+        "lat": 26.4100892,
+        "lng": 127.8375713
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%87%E6%B5%81%E9%BA%BB%E8%97%8F%E8%BA%AB%E8%99%95%E9%85%92%E5%BA%97&query_place_id=ChIJFUt1gLIP5TQRb4p1VuflL7g",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "14f343fa-7d1a-462d-b749-8495270097e0",
+      "id": "JP-H-00002",
+      "name": "沖繩逸之彩",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": {
+        "lat": 26.2162113,
+        "lng": 127.6934006
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%96%E7%B9%A9%E9%80%B8%E4%B9%8B%E5%BD%A9&query_place_id=ChIJ1wgAKXtp5TQRSbfv7gfiIrw",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "512221d0-ab22-42cc-b453-b24a1b5a0125",
+      "id": "JP-H-00003",
+      "name": "那霸國際通大和ROYNET飯店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": {
+        "lat": 26.2176311,
+        "lng": 127.6936214
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%9C%B8%E5%9C%8B%E9%9A%9B%E9%80%9A%E5%A4%A7%E5%92%8CROYNET%E9%A3%AF%E5%BA%97&query_place_id=ChIJ5VXVhGRp5TQRzFFIOZOg_ag",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "f062fff7-2f9d-4c86-b5a3-c53ccd20669b",
+      "id": "JP-H-00004",
+      "name": "Ao～碧～ホテル",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": {
+        "lat": 26.6051766,
+        "lng": 127.9672578
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ao%EF%BD%9E%E7%A2%A7%EF%BD%9E%E3%83%9B%E3%83%86%E3%83%AB&query_place_id=ChIJOZb3TTH_5DQRL_u0n2S0q4k",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "5fef71c9-551b-4086-bcbc-a7da07a184dd",
+      "id": "JP-H-00005",
+      "name": "Blue Steak Wonder Okinawa Chatan",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": {
+        "lat": 26.329471,
+        "lng": 127.7475169
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Steak%20Wonder%20Okinawa%20Chatan&query_place_id=ChIJ7xwAsKUT5TQR2c_iTQHCKl8",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "67ba020f-96f0-40c8-9b38-7668a5876271",
+      "id": "JP-H-00006",
+      "name": "沖繩萬座海濱洲際度假酒店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "RESORT",
+      "coordinates": {
+        "lat": 26.5082738,
+        "lng": 127.8580889
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%96%E7%B9%A9%E8%90%AC%E5%BA%A7%E6%B5%B7%E6%BF%B1%E6%B4%B2%E9%9A%9B%E5%BA%A6%E5%81%87%E9%85%92%E5%BA%97&query_place_id=ChIJLRAZwZsD5TQRA4uA5KUcArQ",
+      "address": null,
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "86d69041-f5d0-4927-a5a1-1509597cb9e4",
+      "id": "JP-H-00007",
+      "name": "金秀喜瀬海灘宮殿酒店",
+      "countryId": "JP",
+      "regionId": "JP-OKINAWA",
+      "categoryId": "H",
+      "subcategoryId": "RESORT",
+      "coordinates": {
+        "lat": 26.5362598,
+        "lng": 127.9451591
+      },
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E7%A7%80%E5%96%9C%E7%80%AC%E6%B5%B7%E7%81%98%E5%AE%AE%E6%AE%BF%E9%85%92%E5%BA%97&query_place_id=ChIJuzthPjAA5TQRqpxjAaXS1AI",
+      "address": null,
+      "note": "",
+      "rating": null
+    }
+  ]
+}
