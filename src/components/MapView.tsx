@@ -247,12 +247,11 @@ export function MapView({
     if (!place || !entry) return
 
     map.panTo(place.coordinates)
-    map.setZoom(Math.max(map.getZoom() ?? region.zoom, 16))
     google.maps.event.addListenerOnce(map, 'idle', () => {
       infoWindow.setContent(createInfoContent(place, definitions))
       infoWindow.open({ map, anchor: entry.marker })
     })
-  }, [definitions, markerRevision, places, region.zoom, selectedPlaceId])
+  }, [definitions, markerRevision, places, selectedPlaceId])
 
   return (
     <section className="map-shell" aria-label={`${region.name}地圖`}>
