@@ -1928,6 +1928,34 @@
       "address": "No. 199號, Dapi 1st Rd, De'an Village, Dongshan Township, Yilan County, Taiwan 269",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "5049ec0c-f314-4bd5-9307-c06597eb6f39",
+      "id": "TW-L-00037",
+      "name": "宜蘭傳藝園區",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": { "lat": 24.685587, "lng": 121.824053 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E5%AE%9C%E8%98%AD%E5%82%B3%E8%97%9D%E5%9C%92%E5%8D%80&ftid=0x3467ef431a84178d%3A0x5ab3468b86b2c5ff",
+      "address": "No. 201號, Section 2, Wubin Rd, Jixin Village, Wujie Township, Yilan County, Taiwan 268",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "35465a48-6e0c-4422-8fdd-29321d94dece",
+      "id": "TW-L-00038",
+      "name": "中興文化創意園區",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": { "lat": 24.6951458, "lng": 121.771102 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E4%B8%AD%E8%88%88%E6%96%87%E5%8C%96%E5%89%B5%E6%84%8F%E5%9C%92%E5%8D%80&ftid=0x3467e5cdcb618091%3A0x6438728063d0acca",
+      "address": "No. 6之8號, Section 2, Zhongzheng Rd, Sijie Village, Wujie Township, Yilan County, Taiwan 268",
+      "note": "",
+      "rating": null
     }
   ]
 }
