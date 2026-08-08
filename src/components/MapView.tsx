@@ -10,6 +10,7 @@ import { createRoot, type Root } from 'react-dom/client'
 import { CategoryIcon } from '../config/icons'
 import { requestCurrentLocation } from '../lib/geolocation'
 import { loadGoogleMaps } from '../lib/googleMaps'
+import { getGoogleMapsOpenUrl } from '../lib/googleMapsLinks'
 import type { DefinitionsData, Place, Region } from '../types'
 
 interface MarkerEntry {
@@ -92,7 +93,7 @@ export function createInfoContent(place: Place, definitions: DefinitionsData) {
 
   const link = document.createElement('a')
   link.className = 'maps-link'
-  link.href = place.googleMapsUrl
+  link.href = getGoogleMapsOpenUrl(place)
   link.target = '_self'
   link.textContent = '用 Google Maps 開啟'
   content.append(link)

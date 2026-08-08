@@ -40,4 +40,21 @@ describe('createInfoContent', () => {
     expect(link).not.toHaveAttribute('rel')
     expect(link).toHaveTextContent('用 Google Maps 開啟')
   })
+
+  it('不直接把分享短網址交給 Google Maps App', () => {
+    const content = createInfoContent(
+      {
+        ...place,
+        googleMapsUrl:
+          'https://maps.app.goo.gl/ZgzbhRSBNhgjDSZaA?g_st=ic',
+        coordinates: { lat: 24.694944, lng: 121.7318456 },
+      },
+      definitions,
+    )
+    const link = content.querySelector<HTMLAnchorElement>('.maps-link')
+
+    expect(link?.href).toBe(
+      'https://www.google.com/maps/search/?api=1&query=24.694944%2C121.7318456',
+    )
+  })
 })
