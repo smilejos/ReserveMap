@@ -733,58 +733,64 @@ a:focus-visible {
   line-height: 1.5;
 }
 
-.map-region-badge {
+.map-top-controls {
   position: absolute;
   top: 18px;
+  right: 18px;
   left: 18px;
   display: flex;
-  min-height: 38px;
-  align-items: center;
-  gap: 7px;
-  padding: 8px 12px;
-  color: #29453d;
-  background: rgba(251, 250, 245, 0.93);
-  border: 1px solid rgba(255, 255, 255, 0.72);
-  border-radius: 11px;
-  box-shadow: 0 8px 24px rgba(21, 39, 34, 0.13);
-  font-size: 12px;
-  font-weight: 800;
+  align-items: flex-start;
+  justify-content: space-between;
+  pointer-events: none;
 }
 
-.map-region-badge svg {
-  color: var(--accent);
-}
-
-.map-location-tools {
-  position: absolute;
-  top: 72px;
-  right: 18px;
+.map-control-button {
   display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  gap: 9px;
-}
-
-.map-location-button {
-  display: grid;
-  width: 48px;
   height: 48px;
-  place-items: center;
-  color: var(--accent);
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 14px;
+  color: #29453d;
+  pointer-events: auto;
   background: rgba(251, 250, 245, 0.96);
   border: 1px solid rgba(255, 255, 255, 0.78);
   border-radius: 14px;
   box-shadow: 0 8px 24px rgba(21, 39, 34, 0.2);
+  font-size: 12px;
+  font-weight: 800;
 }
 
-.map-location-button:hover:not(:disabled) {
+.map-control-button svg {
+  color: var(--accent);
+}
+
+.map-control-button:hover:not(:disabled) {
   color: white;
   background: var(--accent);
 }
 
-.map-location-button:disabled {
+.map-control-button:hover:not(:disabled) svg {
+  color: currentColor;
+}
+
+.map-control-button:disabled {
   cursor: wait;
   opacity: 0.8;
+}
+
+.map-location-tools {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 9px;
+  pointer-events: none;
+}
+
+.map-location-button {
+  width: 48px;
+  padding: 0;
 }
 
 .location-spinner {
@@ -795,6 +801,7 @@ a:focus-visible {
   max-width: min(280px, calc(100vw - 36px));
   padding: 8px 11px;
   color: #29453d;
+  pointer-events: auto;
   background: rgba(251, 250, 245, 0.96);
   border: 1px solid rgba(255, 255, 255, 0.78);
   border-radius: 9px;
@@ -1184,14 +1191,10 @@ a:focus-visible {
     padding: 14px 18px 28px;
   }
 
-  .map-region-badge {
+  .map-top-controls {
     top: 14px;
-    left: 14px;
-  }
-
-  .map-location-tools {
-    top: 66px;
     right: 14px;
+    left: 14px;
   }
 
   .map-status {

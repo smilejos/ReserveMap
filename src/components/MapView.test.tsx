@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import type { DefinitionsData, Place } from '../types'
-import { createInfoContent } from './MapView'
+import { createInfoContent, resetMapToRegion } from './MapView'
 
 const definitions: DefinitionsData = {
   schemaVersion: 1,
@@ -54,5 +54,20 @@ describe('createInfoContent', () => {
     const link = content.querySelector<HTMLAnchorElement>('.maps-link')
 
     expect(link?.href).toBe(merchantUrl)
+  })
+})
+
+describe('resetMapToRegion', () => {
+  it('回到地區定義的中心與預設縮放', () => {
+    const setCenter = vi.fn()
+    const setZoom = vi.fn()
+
+    resetMapToRegion(
+      { setCenter, setZoom },
+      { center: { lat: 26.3344, lng: 127.8056 }, zoom: 9 },
+    )
+
+    expect(setCenter).toHaveBeenCalledWith({ lat: 26.3344, lng: 127.8056 })
+    expect(setZoom).toHaveBeenCalledWith(9)
   })
 })

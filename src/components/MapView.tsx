@@ -30,6 +30,19 @@ type LocationState =
   | { status: 'idle'; message: null }
   | { status: 'locating' | 'success' | 'error'; message: string }
 
+interface RegionMapControls {
+  setCenter: (center: Region['center']) => void
+  setZoom: (zoom: number) => void
+}
+
+export function resetMapToRegion(
+  map: RegionMapControls,
+  region: Pick<Region, 'center' | 'zoom'>,
+) {
+  map.setCenter(region.center)
+  map.setZoom(region.zoom)
+}
+
 function appendTextRow(container: HTMLElement, label: string, value: string) {
   const row = document.createElement('div')
   row.className = 'info-meta-row'
@@ -195,8 +208,7 @@ export function MapView({
     const map = mapRef.current
     if (!map) return
     infoWindowRef.current?.close()
-    map.setCenter(region.center)
-    map.setZoom(region.zoom)
+    resetMapToRegion(map, region)
   }, [region])
 
   useEffect(() => {
@@ -338,6 +350,14 @@ export function MapView({
     }
   }
 
+  const resetToRegionCenter = () => {
+    const map = mapRef.current
+    if (!map) return
+    onSelectPlace(null)
+    infoWindowRef.current?.close()
+    resetMapToRegion(map, region)
+  }
+
   return (
     <section className="map-shell" aria-label={`${region.name}地圖`}>
       <div className="map-canvas" ref={containerRef} />
@@ -358,11 +378,18 @@ export function MapView({
           </div>
         </div>
       )}
-      <div className="map-region-badge">
-        <MapIcon size={15} />
-        {region.name}
-      </div>
-      {mapReady && (
+      <div className="map-top-controls">
+        <button
+          aria-label={`回到${region.name}地圖中心`}
+          className="map-control-button map-region-button"
+          disabled={!mapReady}
+          onClick={resetToRegionCenter}
+          title={`回到${region.name}地圖中心`}
+          type="button"
+        >
+          <MapIcon size={18} />
+          <span>{region.name}</span>
+        </button>
         <div className="map-location-tools">
           <button
             aria-label={
@@ -370,8 +397,8 @@ export function MapView({
                 ? '正在定位目前位置'
                 : '顯示我的目前位置'
             }
-            className="map-location-button"
-            disabled={locationState.status === 'locating'}
+            className="map-control-button map-location-button"
+            disabled={!mapReady || locationState.status === 'locating'}
             onClick={() => void locateCurrentPosition()}
             title="顯示我的目前位置"
             type="button"
@@ -393,7 +420,7 @@ export function MapView({
             </div>
           )}
         </div>
-      )}
+      </div>
     </section>
   )
 }
