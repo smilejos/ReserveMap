@@ -41,20 +41,18 @@ describe('createInfoContent', () => {
     expect(link).toHaveTextContent('用 Google Maps 開啟')
   })
 
-  it('不直接把分享短網址交給 Google Maps App', () => {
+  it('保留資料中的 Google Maps 商家識別網址', () => {
+    const merchantUrl =
+      'https://www.google.com/maps?q=example&ftid=0x1234:0x5678'
     const content = createInfoContent(
       {
         ...place,
-        googleMapsUrl:
-          'https://maps.app.goo.gl/ZgzbhRSBNhgjDSZaA?g_st=ic',
-        coordinates: { lat: 24.694944, lng: 121.7318456 },
+        googleMapsUrl: merchantUrl,
       },
       definitions,
     )
     const link = content.querySelector<HTMLAnchorElement>('.maps-link')
 
-    expect(link?.href).toBe(
-      'https://www.google.com/maps/search/?api=1&query=24.694944%2C121.7318456',
-    )
+    expect(link?.href).toBe(merchantUrl)
   })
 })
