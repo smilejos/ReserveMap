@@ -1292,6 +1292,23 @@
       "address": "〒905-0019 沖縄県名護市大北5-24-17",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "c9644e6a-c641-4aa7-84ac-fd1623395630",
+      "id": "TW-F-00001",
+      "name": "黑秀冰店",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "F",
+      "subcategoryId": "DESSERT",
+      "coordinates": {
+        "lat": 25.083904,
+        "lng": 121.3661184
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/Kn6HLBSPhK9usAnr7?g_st=ic",
+      "address": "260宜蘭縣宜蘭市擺厘里擺厘路16-1號",
+      "note": "",
+      "rating": null
     }
   ]
 }
