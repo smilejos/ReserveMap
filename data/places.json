@@ -1326,6 +1326,74 @@
       "address": "266, Taiwan, Yilan County, Sanxing Township, 大洲村上將路二段277號",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "8dbca6c8-e4c6-4f79-828f-5d4a1fa8f340",
+      "id": "TW-F-00002",
+      "name": "阿娘給的蒜味肉羹｜原創本舖｜若早售完即提早打烊",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 24.7522203,
+        "lng": 121.7398952
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/9ynsy5sFDD892egu5",
+      "address": "No. 239之1號, Taishan Rd, Taishan Village, Yilan City, Yilan County, Taiwan 260",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "8370ca81-d05b-4c32-9539-2ae3038e98c6",
+      "id": "TW-F-00003",
+      "name": "正常鮮肉小籠包店",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 24.7504738,
+        "lng": 121.7561085
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/byCkMm4wqhHsaVDx5",
+      "address": "No. 112號, Section 1, Yixing Rd, Shennong Village, Yilan City, Yilan County, Taiwan 260",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "4c9d20e4-2214-43eb-94a8-57b1c2e81b65",
+      "id": "TW-F-00004",
+      "name": "北門綠豆沙牛乳大王",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 24.7603435,
+        "lng": 121.7534132
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/PuQEy7qG2rHt5Drt9",
+      "address": "No. 208號, Section 3, Zhongshan Rd, Dongmen Village, Yilan City, Yilan County, Taiwan 260",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "5da949d8-ee92-4162-9b5a-97f54f82266d",
+      "id": "TW-F-00005",
+      "name": "北門綠豆沙牛乳大王-羅東店",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "F",
+      "subcategoryId": "FOOD_STALL",
+      "coordinates": {
+        "lat": 24.6843124,
+        "lng": 121.771154
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/PGv3Hxpd8Bzkjrw46",
+      "address": "No. 179號, Zhongzheng N Rd, Xinyi Village, Luodong Township, Yilan County, Taiwan 265",
+      "note": "",
+      "rating": null
     }
   ]
 }
