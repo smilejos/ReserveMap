@@ -60,6 +60,7 @@
       "subcategories": [
         { "id": "ATTRACTION", "name": "景點", "icon": "camera" },
         { "id": "PARK", "name": "公園", "icon": "tree-deciduous" },
+        { "id": "FARM", "name": "農場", "icon": "tree-deciduous" },
         { "id": "ENTERTAINMENT", "name": "娛樂", "icon": "ticket" },
         { "id": "EXHIBITION", "name": "展館", "icon": "museum" }
       ]
