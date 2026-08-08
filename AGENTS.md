@@ -33,11 +33,21 @@
 
 ## Google Maps 網址
 
-允許的網址必須使用 HTTPS，且為以下形式之一：
+使用者提供的網址必須使用 HTTPS，且為以下形式之一：
 
 - `maps.app.goo.gl`
 - `goo.gl/maps/...`
 - `google.com/maps/...`、`google.com.tw/maps/...`、`google.co.jp/maps/...`，可含 `www` 或 `maps` 子網域
+
+`maps.app.goo.gl` 與 `goo.gl/maps/...` 只作為輸入，不得直接寫入 `places.json`。收到短網址時必須自行正規化：
+
+1. 安全跟隨 HTTPS redirect，取得 Google Maps 最終長網址；不得使用 Google Places API。
+2. 核實最終網址顯示的名稱與座標和要新增或修改的地點一致。
+3. 若最終網址的 `/data=...` 段含有 `!1s0x...:0x...!`，擷取 `!1s` 後、下一個 `!` 前符合 `0x[十六進位]:0x[十六進位]` 的完整值作為 `ftid`。
+4. 使用標準 URL 編碼組成 `https://www.google.com/maps?q={地點名稱}&ftid={ftid}`；`q` 與 `ftid` 都必須透過 URL API 或等效方法編碼，不得手動拼接未編碼文字。
+5. 若最終網址已是含 `query_place_id` 或 `ftid` 的 Google Maps 長網址，保留該精確地點識別網址，不要改成只有座標的搜尋網址。
+6. 若無法取得 `ftid`，保存已核實的最終 Google Maps 長網址；不得退回保存短網址，也不得猜造識別值。
+7. 寫入前再次開啟正規化後的網址，確認仍指向同一地點；重複檢查一律使用正規化後的網址。
 
 若 Google 提供的新官方網域未在驗證白名單中，先確認所有權及安全性，再同步更新 `scripts/validate-data.mjs` 與相關測試；不要為了通過驗證放寬成任意網域。
 
