@@ -1394,6 +1394,91 @@
       "address": "No. 179號, Zhongzheng N Rd, Xinyi Village, Luodong Township, Yilan County, Taiwan 265",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "7b8ae8bd-e58a-4cde-a877-72d3ff0a09f3",
+      "id": "TW-L-00001",
+      "name": "武荖坑風景區",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 24.6106094,
+        "lng": 121.8144652
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/Vwm6DQiLTSeNMRva7",
+      "address": "270, Taiwan, Yilan County, Su'ao Township, 武荖坑路75號",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "9e0e2c16-0ad8-47d1-820f-e413e4d836c1",
+      "id": "TW-L-00002",
+      "name": "清水地熱公園",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 24.6118089,
+        "lng": 121.6365653
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/pyGe7mvSQaTtUThQA",
+      "address": "267, Taiwan, Yilan County, Datong Township, Tianshan Village, 三星路八段501巷150號",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "e0278519-579b-4940-bd62-a24764234dde",
+      "id": "TW-L-00003",
+      "name": "宜蘭幾米公園",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 24.7526264,
+        "lng": 121.7570038
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/JWFkrKCGQdJsLKdy7",
+      "address": "No. 240號, Section 1, Yixing Rd, Daxin Village, Yilan City, Yilan County, Taiwan 260",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "b42c22d4-9c6b-4ee9-8f34-d3dedd2cc920",
+      "id": "TW-L-00004",
+      "name": "寒溪吊橋",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 24.6107665,
+        "lng": 121.6878796
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/Y2RBUv7FaJrMbk7f8",
+      "address": "Datong Township, Yilan County, Taiwan 267",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "469ec3d5-7040-43c8-91d6-898d0744bbb4",
+      "id": "TW-L-00005",
+      "name": "永恆水教堂－香格里拉冬山河渡假飯店",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "ATTRACTION",
+      "coordinates": {
+        "lat": 24.6761241,
+        "lng": 121.8147687
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/tXtWktyghcVtB4jg7",
+      "address": "No. 15, Gongyuan 2nd Rd, Xiehe Village, Wujie Township, Yilan County, Taiwan 268",
+      "note": "",
+      "rating": null
     }
   ]
 }
