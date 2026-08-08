@@ -1,8 +1,14 @@
 import { MarkerClusterer } from '@googlemaps/markerclusterer'
-import { AlertTriangle, Map as MapIcon } from 'lucide-react'
+import {
+  AlertTriangle,
+  LoaderCircle,
+  LocateFixed,
+  Map as MapIcon,
+} from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { createRoot, type Root } from 'react-dom/client'
 import { CategoryIcon } from '../config/icons'
+import { requestCurrentLocation } from '../lib/geolocation'
 import { loadGoogleMaps } from '../lib/googleMaps'
 import type { DefinitionsData, Place, Region } from '../types'
 
@@ -20,6 +26,10 @@ interface MapViewProps {
   onSelectPlace: (placeId: string | null) => void
 }
 
+type LocationState =
+  | { status: 'idle'; message: null }
+  | { status: 'locating' | 'success' | 'error'; message: string }
+
 function appendTextRow(container: HTMLElement, label: string, value: string) {
   const row = document.createElement('div')
   row.className = 'info-meta-row'
@@ -31,7 +41,7 @@ function appendTextRow(container: HTMLElement, label: string, value: string) {
   container.append(row)
 }
 
-function createInfoContent(place: Place, definitions: DefinitionsData) {
+export function createInfoContent(place: Place, definitions: DefinitionsData) {
   const category = definitions.categories.find(
     (item) => item.id === place.categoryId,
   )
@@ -83,11 +93,19 @@ function createInfoContent(place: Place, definitions: DefinitionsData) {
   const link = document.createElement('a')
   link.className = 'maps-link'
   link.href = place.googleMapsUrl
-  link.target = '_blank'
-  link.rel = 'noopener noreferrer'
-  link.textContent = '在 Google Maps 開啟 ↗'
+  link.target = '_self'
+  link.textContent = '用 Google Maps 開啟'
   content.append(link)
   return content
+}
+
+function createCurrentLocationMarker() {
+  const marker = document.createElement('div')
+  marker.className = 'current-location-marker'
+  marker.setAttribute('aria-label', '你的目前位置')
+  marker.setAttribute('role', 'img')
+  marker.append(document.createElement('span'))
+  return marker
 }
 
 export function MapView({
@@ -103,9 +121,17 @@ export function MapView({
   const infoWindowRef = useRef<google.maps.InfoWindow | null>(null)
   const clustererRef = useRef<MarkerClusterer | null>(null)
   const markerEntriesRef = useRef(new Map<string, MarkerEntry>())
+  const currentLocationMarkerRef =
+    useRef<google.maps.marker.AdvancedMarkerElement | null>(null)
+  const locationRequestRef = useRef(0)
+  const locationFeedbackTimerRef = useRef<number | null>(null)
   const [mapReady, setMapReady] = useState(false)
   const [markerRevision, setMarkerRevision] = useState(0)
   const [mapError, setMapError] = useState<string | null>(null)
+  const [locationState, setLocationState] = useState<LocationState>({
+    status: 'idle',
+    message: null,
+  })
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY?.trim()
   const mapId = import.meta.env.VITE_GOOGLE_MAP_ID?.trim() || 'DEMO_MAP_ID'
 
@@ -150,6 +176,20 @@ export function MapView({
       cancelled = true
     }
   }, [apiKey, mapId, onSelectPlace])
+
+  useEffect(
+    () => () => {
+      locationRequestRef.current += 1
+      if (locationFeedbackTimerRef.current !== null) {
+        window.clearTimeout(locationFeedbackTimerRef.current)
+      }
+      if (currentLocationMarkerRef.current) {
+        currentLocationMarkerRef.current.map = null
+        currentLocationMarkerRef.current = null
+      }
+    },
+    [],
+  )
 
   useEffect(() => {
     const map = mapRef.current
@@ -253,6 +293,51 @@ export function MapView({
     })
   }, [definitions, markerRevision, places, selectedPlaceId])
 
+  const locateCurrentPosition = async () => {
+    const map = mapRef.current
+    if (!map || locationState.status === 'locating') return
+
+    const requestId = ++locationRequestRef.current
+    if (locationFeedbackTimerRef.current !== null) {
+      window.clearTimeout(locationFeedbackTimerRef.current)
+      locationFeedbackTimerRef.current = null
+    }
+    setLocationState({ status: 'locating', message: '正在取得 GPS 位置…' })
+
+    try {
+      const position = await requestCurrentLocation()
+      if (requestId !== locationRequestRef.current || !mapRef.current) return
+
+      if (currentLocationMarkerRef.current) {
+        currentLocationMarkerRef.current.position = position
+        currentLocationMarkerRef.current.map = map
+      } else {
+        currentLocationMarkerRef.current =
+          new google.maps.marker.AdvancedMarkerElement({
+            map,
+            position,
+            title: '你的目前位置',
+            content: createCurrentLocationMarker(),
+            zIndex: 10_000,
+          })
+      }
+
+      onSelectPlace(null)
+      map.panTo(position)
+      if ((map.getZoom() ?? 0) < 17) map.setZoom(17)
+      setLocationState({ status: 'success', message: '已定位到目前位置' })
+      locationFeedbackTimerRef.current = window.setTimeout(() => {
+        setLocationState({ status: 'idle', message: null })
+      }, 3000)
+    } catch (error) {
+      if (requestId !== locationRequestRef.current) return
+      setLocationState({
+        status: 'error',
+        message: error instanceof Error ? error.message : 'GPS 定位失敗。',
+      })
+    }
+  }
+
   return (
     <section className="map-shell" aria-label={`${region.name}地圖`}>
       <div className="map-canvas" ref={containerRef} />
@@ -277,6 +362,38 @@ export function MapView({
         <MapIcon size={15} />
         {region.name}
       </div>
+      {mapReady && (
+        <div className="map-location-tools">
+          <button
+            aria-label={
+              locationState.status === 'locating'
+                ? '正在定位目前位置'
+                : '顯示我的目前位置'
+            }
+            className="map-location-button"
+            disabled={locationState.status === 'locating'}
+            onClick={() => void locateCurrentPosition()}
+            title="顯示我的目前位置"
+            type="button"
+          >
+            {locationState.status === 'locating' ? (
+              <LoaderCircle className="location-spinner" size={21} />
+            ) : (
+              <LocateFixed size={21} />
+            )}
+          </button>
+          {locationState.message && (
+            <div
+              className={`map-location-feedback${
+                locationState.status === 'error' ? ' is-error' : ''
+              }`}
+              role={locationState.status === 'error' ? 'alert' : 'status'}
+            >
+              {locationState.message}
+            </div>
+          )}
+        </div>
+      )}
     </section>
   )
 }
