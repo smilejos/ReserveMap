@@ -1309,6 +1309,23 @@
       "address": "260宜蘭縣宜蘭市擺厘里擺厘路16-1號",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "9a52f7e6-2ec3-46a1-8cf3-aaf6fe93b484",
+      "id": "TW-H-00001",
+      "name": "朋友+VILLA｜宜蘭包棟民宿・泳池・烤肉・聚會首選",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOMESTAY",
+      "coordinates": {
+        "lat": 24.694944,
+        "lng": 121.7318456
+      },
+      "googleMapsUrl": "https://maps.app.goo.gl/ZgzbhRSBNhgjDSZaA?g_st=ic",
+      "address": "266, Taiwan, Yilan County, Sanxing Township, 大洲村上將路二段277號",
+      "note": "",
+      "rating": null
     }
   ]
 }
