@@ -1479,6 +1479,91 @@
       "address": "No. 15, Gongyuan 2nd Rd, Xiehe Village, Wujie Township, Yilan County, Taiwan 268",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "ce128f69-0d34-43e4-8c45-80f5cf6e9952",
+      "id": "TW-L-00006",
+      "name": "湯圍溝溫泉公園",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 24.8285141,
+        "lng": 121.7699558
+      },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E6%B9%AF%E5%9C%8D%E6%BA%9D%E6%BA%AB%E6%B3%89%E5%85%AC%E5%9C%92&ftid=0x3467fa4a6daebdef%3A0xb3466f84cbf68fb9",
+      "address": "No. 99-11號, Deyang Rd, Deyang Village, Jiaoxi Township, Yilan County, Taiwan 262",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "3547e579-ac28-4e01-805e-95f17f3eba29",
+      "id": "TW-L-00007",
+      "name": "冬山河親水公園",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 24.6729935,
+        "lng": 121.8158161
+      },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E5%86%AC%E5%B1%B1%E6%B2%B3%E8%A6%AA%E6%B0%B4%E5%85%AC%E5%9C%92&ftid=0x3467ef554a116ed3%3A0x475d5189ca48fbf7",
+      "address": "No. 2, Section 2, Qinhe Rd, Xiehe Village, Wujie Township, Yilan County, Taiwan 268",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "3cd42ec4-3711-4257-8e18-15ba94a6bb86",
+      "id": "TW-L-00008",
+      "name": "蘇澳冷泉公園",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 24.5973124,
+        "lng": 121.850703
+      },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E8%98%87%E6%BE%B3%E5%86%B7%E6%B3%89%E5%85%AC%E5%9C%92&ftid=0x3467e835e0848e97%3A0x2313262636b0e482",
+      "address": "No. 6之4號, Lengquan Rd, Subei Village, Su'ao Township, Yilan County, Taiwan 270",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "bc31f5ad-9688-46d1-818b-40f219e2c4e4",
+      "id": "TW-L-00009",
+      "name": "北關海潮公園",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 24.9125557,
+        "lng": 121.8776253
+      },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E5%8C%97%E9%97%9C%E6%B5%B7%E6%BD%AE%E5%85%AC%E5%9C%92&ftid=0x345d589f7601be7b%3A0x799321650f145fbe",
+      "address": "No. 10, Section 4, Binhai Rd, Hexing Village, Toucheng Township, Yilan County, Taiwan 261",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "e3e0ca0c-e8ec-4215-8dc5-32379ad85937",
+      "id": "TW-L-00010",
+      "name": "羅東運動公園",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "L",
+      "subcategoryId": "PARK",
+      "coordinates": {
+        "lat": 24.6829214,
+        "lng": 121.7531973
+      },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E7%BE%85%E6%9D%B1%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92&ftid=0x3467e69d2fac8513%3A0xd9a2077ec5ed619b",
+      "address": "No. 666號, Gongzheng Rd, Beicheng Village, Luodong Township, Yilan County, Taiwan 265",
+      "note": "",
+      "rating": null
     }
   ]
 }
