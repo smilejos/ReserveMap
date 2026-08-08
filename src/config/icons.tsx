@@ -2,6 +2,7 @@ import {
   BedDouble,
   Building2,
   CakeSlice,
+  CupSoda,
   Camera,
   Coffee,
   House,
@@ -22,6 +23,7 @@ import {
 const icons: Record<string, LucideIcon> = {
   restaurant: UtensilsCrossed,
   soup: Soup,
+  'cup-soda': CupSoda,
   'cake-slice': CakeSlice,
   coffee: Coffee,
   camera: Camera,

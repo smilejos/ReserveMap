@@ -48,9 +48,10 @@
       "color": "#D81B60",
       "subcategories": [
         { "id": "RESTAURANT", "name": "餐廳", "icon": "restaurant" },
-        { "id": "FOOD_STALL", "name": "小吃攤", "icon": "soup" },
-        { "id": "DESSERT", "name": "甜點店", "icon": "cake-slice" },
-        { "id": "CAFE", "name": "咖啡廳", "icon": "coffee" }
+        { "id": "FOOD_STALL", "name": "小吃", "icon": "soup" },
+        { "id": "DESSERT", "name": "甜點", "icon": "cake-slice" },
+        { "id": "CAFE", "name": "咖啡", "icon": "coffee" },
+        { "id": "DRINK", "name": "飲料", "icon": "cup-soda" }
       ]
     },
     {
@@ -61,7 +62,7 @@
         { "id": "ATTRACTION", "name": "景點", "icon": "camera" },
         { "id": "PARK", "name": "公園", "icon": "tree-deciduous" },
         { "id": "FARM", "name": "農場", "icon": "squirrel" },
-        { "id": "ENTERTAINMENT", "name": "娛樂", "icon": "ticket" },
+        { "id": "ENTERTAINMENT", "name": "樂園", "icon": "ticket" },
         { "id": "EXHIBITION", "name": "展館", "icon": "museum" }
       ]
     },
@@ -80,11 +81,9 @@
       "name": "住宿",
       "color": "#F9A825",
       "subcategories": [
-        { "id": "HOTEL", "name": "飯店", "icon": "hotel" },
-        { "id": "INN", "name": "旅館", "icon": "bed-double" },
+        { "id": "HOTEL", "name": "旅館", "icon": "hotel" },
         { "id": "HOMESTAY", "name": "民宿", "icon": "house" },
-        { "id": "RESORT", "name": "度假村", "icon": "palm-tree" },
-        { "id": "OTHER", "name": "其他", "icon": "map-pin" }
+        { "id": "RESORT", "name": "度假村", "icon": "palm-tree" }
       ]
     }
   ]
