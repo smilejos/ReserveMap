@@ -1984,6 +1984,76 @@
       "address": "No. 231號, Erjie Rd, Erjie Village, Wujie Township, Yilan County, Taiwan 26847",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "2553d20f-bc47-4956-9d83-544128817a07",
+      "id": "TW-H-00004",
+      "name": "天使星夢渡假村",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOMESTAY",
+      "coordinates": { "lat": 24.6807097, "lng": 121.7401507 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E5%A4%A9%E4%BD%BF%E6%98%9F%E5%A4%A2%E6%B8%A1%E5%81%87%E6%9D%91&ftid=0x3467e776f49155f1%3A0xa5e6b3a863434aeb",
+      "address": "No. 323號, Jing'an 2nd Rd, Kelin Village, Dongshan Township, Yilan County, Taiwan 269022",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "c08c3c8c-e51c-4e0f-b5ca-e8d06009f8b6",
+      "id": "TW-H-00005",
+      "name": "宜蘭水岸楓林民宿",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOMESTAY",
+      "coordinates": { "lat": 24.6617614, "lng": 121.7792753 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E5%AE%9C%E8%98%AD%E6%B0%B4%E5%B2%B8%E6%A5%93%E6%9E%97%E6%B0%91%E5%AE%BF&ftid=0x3467e69fe7372ab9%3A0x7e4a532d87673a71",
+      "address": "No. 22, Baxian 1st Rd, Qunying Village, Dongshan Township, Yilan County, Taiwan 269",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "66a8179d-ad8f-4605-b6c3-b553270d5c15",
+      "id": "TW-H-00006",
+      "name": "親水89饗樂民宿",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOMESTAY",
+      "coordinates": { "lat": 24.6737273, "lng": 121.8133766 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E8%A6%AA%E6%B0%B489%E9%A5%97%E6%A8%82%E6%B0%91%E5%AE%BF&ftid=0x3467e55758ba5ecf%3A0x6775174da001f9fc",
+      "address": "No. 89, Lane 58, Section 2, Qinhe Rd, Xiehe Village, Wujie Township, Yilan County, Taiwan 268",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "a670f31b-601a-48e6-bba8-dabca8267e7e",
+      "id": "TW-H-00007",
+      "name": "Fly Inn",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOMESTAY",
+      "coordinates": { "lat": 24.6510782, "lng": 121.7908357 },
+      "googleMapsUrl": "https://www.google.com/maps?q=Fly+Inn&ftid=0x3467e63ee011e445%3A0x2220d9748570f42b",
+      "address": "No. 266, Zhenzhu 2nd Rd, Dongshan Township, Yilan County, Taiwan 269",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "495d9551-0aca-4d98-a4e2-60953942d081",
+      "id": "TW-H-00008",
+      "name": "川湯春天旗艦館",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOMESTAY",
+      "coordinates": { "lat": 24.8279731, "lng": 121.7753092 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E5%B7%9D%E6%B9%AF%E6%98%A5%E5%A4%A9%E6%97%97%E8%89%A6%E9%A4%A8&ftid=0x3467fbe92192bc71%3A0xc0020ab424a33d7e",
+      "address": "No. 218, Section 2, Zhongshan Rd, Deyang Village, Jiaoxi Township, Yilan County, Taiwan 262",
+      "note": "",
+      "rating": null
     }
   ]
 }
