@@ -1956,6 +1956,34 @@
       "address": "No. 6之8號, Section 2, Zhongzheng Rd, Sijie Village, Wujie Township, Yilan County, Taiwan 268",
       "note": "",
       "rating": null
+    },
+    {
+      "uid": "769473c4-eecb-4235-bb68-938e05434d26",
+      "id": "TW-H-00002",
+      "name": "月河彎民宿",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": { "lat": 24.6925177, "lng": 121.8235627 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E6%9C%88%E6%B2%B3%E5%BD%8E%E6%B0%91%E5%AE%BF&ftid=0x3467efe932cfe8d3%3A0xf5d40a07229bcc97",
+      "address": "No. 258號, Section 1, Wujie Rd, Jinzhong Village, Wujie Township, Yilan County, Taiwan 268",
+      "note": "",
+      "rating": null
+    },
+    {
+      "uid": "a967aeab-9af9-408f-88ee-5b5e5a5a2811",
+      "id": "TW-H-00003",
+      "name": "松風文旅",
+      "countryId": "TW",
+      "regionId": "TW-YILAN",
+      "categoryId": "H",
+      "subcategoryId": "HOTEL",
+      "coordinates": { "lat": 24.7065866, "lng": 121.7691249 },
+      "googleMapsUrl": "https://www.google.com/maps?q=%E6%9D%BE%E9%A2%A8%E6%96%87%E6%97%85&ftid=0x3467e55f71aea189%3A0xc682f4ab2e1db7a9",
+      "address": "No. 231號, Erjie Rd, Erjie Village, Wujie Township, Yilan County, Taiwan 26847",
+      "note": "",
+      "rating": null
     }
   ]
 }
