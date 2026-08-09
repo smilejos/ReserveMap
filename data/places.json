@@ -1368,7 +1368,7 @@
       "countryId": "TW",
       "regionId": "TW-YILAN",
       "categoryId": "F",
-      "subcategoryId": "FOOD_STALL",
+      "subcategoryId": "DRINK",
       "coordinates": {
         "lat": 24.7603435,
         "lng": 121.7534132
@@ -1385,7 +1385,7 @@
       "countryId": "TW",
       "regionId": "TW-YILAN",
       "categoryId": "F",
-      "subcategoryId": "FOOD_STALL",
+      "subcategoryId": "DRINK",
       "coordinates": {
         "lat": 24.6843124,
         "lng": 121.771154
