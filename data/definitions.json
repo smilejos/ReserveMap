@@ -27,6 +27,13 @@
       "zoom": 10
     },
     {
+      "id": "TW-LINKOU",
+      "countryId": "TW",
+      "name": "林口",
+      "center": { "lat": 25.0775, "lng": 121.3916 },
+      "zoom": 12
+    },
+    {
       "id": "TW-YILAN",
       "countryId": "TW",
       "name": "宜蘭",
