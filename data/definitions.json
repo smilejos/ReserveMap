@@ -30,8 +30,8 @@
       "id": "TW-LINKOU",
       "countryId": "TW",
       "name": "林口",
-      "center": { "lat": 25.0775, "lng": 121.3916 },
-      "zoom": 12
+      "center": { "lat": 25.06123635, "lng": 121.368367 },
+      "zoom": 13
     },
     {
       "id": "TW-YILAN",
