@@ -2209,5 +2209,23 @@
     "note": "",
     "rating": null
   }
+,
+  {
+    "uid": "8a9e218e-5f3b-4358-8118-c8b33f2f1fb9",
+    "id": "TW-F-00015",
+    "name": "澎湃豆花林口店",
+    "countryId": "TW",
+    "regionId": "TW-LINKOU",
+    "categoryId": "F",
+    "subcategoryId": "DESSERT",
+    "coordinates": {
+      "lat": 25.0522428,
+      "lng": 121.3659868
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=%E6%BE%8E%E6%B9%83%E8%B1%86%E8%8A%B1%E6%9E%97%E5%8F%A3%E5%BA%97&ftid=0x3442a7b614ef5f63%3A0x3049c46f814746db",
+    "address": "333, Taiwan, Taoyuan City, Guishan District, Dahua Village, Xinghua 5th St, 75號1樓",
+    "note": "",
+    "rating": null
+  }
   ]
 }
