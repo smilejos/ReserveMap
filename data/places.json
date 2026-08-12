@@ -2226,6 +2226,40 @@
     "address": "333, Taiwan, Taoyuan City, Guishan District, Dahua Village, Xinghua 5th St, 75號1樓",
     "note": "",
     "rating": null
+  },
+  {
+    "uid": "0c1f19e4-909b-4410-bdef-14a54f0fc12a",
+    "id": "TW-F-00016",
+    "name": "初食軒餐廳",
+    "countryId": "TW",
+    "regionId": "TW-YILAN",
+    "categoryId": "F",
+    "subcategoryId": "RESTAURANT",
+    "coordinates": {
+      "lat": 24.82829,
+      "lng": 121.7695054
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=%E5%88%9D%E9%A3%9F%E8%BB%92%E9%A4%90%E5%BB%B3&ftid=0x3467fb1b9dbc8941%3A0xbcc1a52562c35dc8",
+    "address": "262, Taiwan, Yilan County, Jiaoxi Township, Deyang Village, 仁愛路48巷18弄1號",
+    "note": "",
+    "rating": null
+  },
+  {
+    "uid": "abaa2868-41c1-4f02-ac1f-fe7f421eec6d",
+    "id": "TW-F-00017",
+    "name": "CYCT",
+    "countryId": "TW",
+    "regionId": "TW-YILAN",
+    "categoryId": "F",
+    "subcategoryId": "RESTAURANT",
+    "coordinates": {
+      "lat": 24.680832,
+      "lng": 121.770722
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=CYCT&ftid=0x3467e5d74ccaec63%3A0x45560413272ab62c",
+    "address": "No. 30號, Cangqian Rd, Xinyi Village, Luodong Township, Yilan County, Taiwan 265",
+    "note": "",
+    "rating": null
   }
   ]
 }
