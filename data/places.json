@@ -2260,6 +2260,40 @@
     "address": "No. 30號, Cangqian Rd, Xinyi Village, Luodong Township, Yilan County, Taiwan 265",
     "note": "",
     "rating": null
+  },
+  {
+    "uid": "20d65be3-a631-4604-a984-6d43868b9338",
+    "id": "TW-L-00039",
+    "name": "空氣島卡丁車羅東",
+    "countryId": "TW",
+    "regionId": "TW-YILAN",
+    "categoryId": "L",
+    "subcategoryId": "ENTERTAINMENT",
+    "coordinates": {
+      "lat": 24.6766135,
+      "lng": 121.7709375
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=%E7%A9%BA%E6%B0%A3%E5%B3%B6%E5%8D%A1%E4%B8%81%E8%BB%8A%E7%BE%85%E6%9D%B1&ftid=0x3467e7000dfc1b01%3A0xfd931d01b56139fd",
+    "address": "265, Taiwan, Yilan County, Luodong Township, Jixiang Village, Minsheng Rd, 6號4樓",
+    "note": "",
+    "rating": null
+  },
+  {
+    "uid": "d95e71a1-de31-4c00-ba6c-527f02e03afe",
+    "id": "TW-L-00040",
+    "name": "木育森林",
+    "countryId": "TW",
+    "regionId": "TW-YILAN",
+    "categoryId": "L",
+    "subcategoryId": "ENTERTAINMENT",
+    "coordinates": {
+      "lat": 24.6826462,
+      "lng": 121.77158
+    },
+    "googleMapsUrl": "https://www.google.com/maps?q=%E6%9C%A8%E8%82%B2%E6%A3%AE%E6%9E%97&ftid=0x3467e5951b88aa47%3A0x165186f26312e5b8",
+    "address": "26548, Taiwan, Yilan County, Luodong Township, Xinyi Village, Zhongzheng N Rd, 118號",
+    "note": "",
+    "rating": null
   }
   ]
 }
